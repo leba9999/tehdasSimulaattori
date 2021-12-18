@@ -6,12 +6,28 @@ Tehdas Simulaattorilla on tarkoitus simuloida 3-vaihetapahtuma pohjaisesti tehda
 
 Tehdas simulaattorin kätevän yksinkertainen käyttöliittymä takaa mukavan kokemuksen käyttäjälle. Simulointia voi katsoa yhtä helposti, kuin nykyaikaisen videosoittimen soittamaa videota.
 
+Simulaattori on ottanut inspiraatiota [Vaisala Oyj](https://www.vaisala.com/fi) sääinstrumentti tehtaasta.
+
+<a href="https://www.vaisala.com/fi">
+  <img src="https://www.vaisala.com/themes/custom/vaisala/logo.svg" width="258" alt="https://www.vaisala.com/fi" title="https://www.vaisala.com/fi">
+</a>
+
 ### Käytetyt kirjastot:
 - [JavaFX](https://openjfx.io)
 - [MariaDB Connector/J](https://mariadb.com/kb/en/about-mariadb-connector-j/) 
-
+- [JUnit 5](https://junit.org/junit5/docs/current/user-guide/)
 ### IDE - Ohjelmointiympäristö:
 - [Eclipse](https://www.eclipse.org)
+
+### Kuvakaapaukset päänäkymistä:
+| Alku-/Päänäkymä | Uusi Simulaatio |
+| --- | --- |
+| <img src="screenshots/window1.jpg" alt="Alkunäkymä" title="Alkunäkymä"> | <img src="screenshots/window2.jpg" alt="Erillaisia asetuksia joita voi muokata" title="Uusi Simulaatio"> |
+
+| Simuloiti päänäkymä | Suureet näkymä |
+| --- | --- |
+| <img src="screenshots/window3.jpg" alt="Simulointi soitin mistä näkee koko simulaation" title="Simulointi"> | <img src="screenshots/window4.jpg" alt="Suureet Taulukko" title="Taulukko"> |
+
 
 ## Tekijät:
 - Leevi Koskinen
