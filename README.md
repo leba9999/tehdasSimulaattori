@@ -16,6 +16,10 @@ Simulaattori on ottanut inspiraatiota [Vaisala Oyj](https://www.vaisala.com/fi) 
 - [JavaFX](https://openjfx.io)
 - [MariaDB Connector/J](https://mariadb.com/kb/en/about-mariadb-connector-j/) 
 - [JUnit 5](https://junit.org/junit5/docs/current/user-guide/)
+### Kielet:
+- [Java](https://www.java.com/en/)
+- [SQL](https://www.mysql.com)
+
 ### IDE - Ohjelmointiympäristö:
 - [Eclipse](https://www.eclipse.org)
 
