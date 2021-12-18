@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simu.view.SuureetOhjain">
+   <children>
+      <SplitPane dividerPositions="0.7214163822525598" orientation="VERTICAL" prefHeight="470.2" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TableView fx:id="suureetTaulukko" prefHeight="419.0" prefWidth="599.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                        <TableColumn fx:id="suureetKolumni" editable="false" prefWidth="75.0" text="Quantity" />
+                      <TableColumn fx:id="kasausKolumni" prefWidth="85.7" text="Building" />
+                      <TableColumn fx:id="testaus1Kolumni" prefWidth="85.7" text="Testing 1" />
+                        <TableColumn fx:id="testaus2Kolumni" prefWidth="85.7" text="Testing 2" />
+                        <TableColumn fx:id="pakkausKolumni" prefWidth="85.7" text="Packaging" />
+                        <TableColumn fx:id="laaduntarkastusKolumni" prefWidth="85.7" text="Quality Control" />
+                        <TableColumn fx:id="korjausKolumni" prefWidth="85.7" text="Fixing" />
+                        <TableColumn fx:id="erikoiskalibrointiKolumni" prefWidth="85.7" text="Special calibration" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TableView fx:id="simulaatioTaulukko" layoutY="50.0" prefHeight="128.0" prefWidth="599.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="aikaKolumni" prefWidth="100.0" text="Time" />
+                      <TableColumn fx:id="valmistuneetKolumni" minWidth="0.0" prefWidth="100.0" text="Finished Products" />
+                        <TableColumn fx:id="rikkoutuneetKolumni" prefWidth="100.0" text="Broken Products" />
+                        <TableColumn fx:id="spesiaalitKolumni" prefWidth="100.0" text="Special Products" />
+                        <TableColumn fx:id="tuoteLapimenoKolumni" prefWidth="100.0" text="Product Passage" />
+                        <TableColumn fx:id="suorituskykyKolumni" prefWidth="100.0" text="Perfomance" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

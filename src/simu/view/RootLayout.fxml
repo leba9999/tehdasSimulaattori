@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simu.view.RootLayoutOhjain">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#naytaUusi" text="New Simulation" />
+                  <Menu mnemonicParsing="false" text="Save to...">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#tallennaTiedostoonNappi" text="Local File" />
+                        <MenuItem mnemonicParsing="false" onAction="#tallennaTietokantaan" text="Database" />
+                    </items>
+                  </Menu>
+                <MenuItem mnemonicParsing="false" onAction="#avaaNappi" text="Open Local File" />
+                  <MenuItem mnemonicParsing="false" onAction="#yhdistaTietokantaan" text="Connect to Database" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#lopetaOhjelma" text="Quit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Show">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#naytaJanne" text="Quantities" />
+                  <MenuItem mnemonicParsing="false" onAction="#naytaTietokanta" text="Database Actions" />
+                  <MenuItem mnemonicParsing="false" onAction="#naytaLoppuRapsa" text="End Report" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#avaaHelpSivu" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

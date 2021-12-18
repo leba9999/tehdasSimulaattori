@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simu.view.TietokantaIkkunaOhjain">
+   <children>
+      <SplitPane dividerPositions="0.6063402889245586" layoutX="50.0" layoutY="81.0" prefHeight="400.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ListView fx:id="simulaatiotList" prefHeight="398.4" prefWidth="299.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <GridPane layoutX="-3.0" layoutY="120.0" prefHeight="398.0" prefWidth="194.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.199951171875" minWidth="10.0" prefWidth="51.200048828125" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="116.800048828125" minWidth="10.0" prefWidth="104.799951171875" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="83.20001220703124" minWidth="10.0" prefWidth="38.400000000000006" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="179.99999389648437" minHeight="10.0" prefHeight="111.0000244140625" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="179.99999389648437" minHeight="10.0" prefHeight="52.99998779296875" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="244.20003051757814" minHeight="10.0" prefHeight="57.400006103515636" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="211.9999938964844" minHeight="10.0" prefHeight="53.399993896484375" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="211.9999938964844" minHeight="10.0" prefHeight="125.40000610351564" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button fx:id="poistaBtn" mnemonicParsing="false" onAction="#poistaSimulaatio" prefHeight="25.6" prefWidth="92.0" text="Delete Data" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Button fx:id="avaaBtn" mnemonicParsing="false" onAction="#avaaSimulaatio" prefHeight="25.6" prefWidth="92.0" text="Open Data" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Button fx:id="suljeBtn" mnemonicParsing="false" onAction="#suljeIkkuna" text="Close Window" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

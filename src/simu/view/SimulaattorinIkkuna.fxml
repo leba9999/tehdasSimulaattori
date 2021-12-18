@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simu.view.SimulaattorinIkkunaOhjain">
+   <children>
+      <SplitPane dividerPositions="0.8" layoutX="175.0" layoutY="136.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+            <BorderPane fx:id="pane">
+               <center>
+                  <VBox fx:id="vboxNapit" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#uusiSimulaatioNappi" text="New Simulation">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#lataaSimulaatioNappi" text="Load Simulation">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </center>
+            </BorderPane>
+          <AnchorPane maxHeight="90.0" minHeight="50.0" minWidth="0.0" prefHeight="90.0" prefWidth="601.0">
+               <children>
+                  <VBox fx:id="vboxAnOhjain" alignment="CENTER" prefHeight="50.4" prefWidth="600.8" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <HBox prefHeight="50.4" prefWidth="600.8">
+                           <children>
+                              <VBox prefHeight="50.0" prefWidth="470.0">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <Button mnemonicParsing="false" onAction="#askelTaaksepain" text="|&lt;" />
+                                          <Button mnemonicParsing="false" onAction="#hitaammaksiNappi" text="Slow">
+                                             <HBox.margin>
+                                                <Insets left="5.0" right="5.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                          <Button fx:id="toistoNappi" mnemonicParsing="false" onAction="#toistoNappi" text="Play">
+                                             <HBox.margin>
+                                                <Insets left="5.0" right="5.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                          <Button mnemonicParsing="false" onAction="#nopeammaksiNappi" text="Fast">
+                                             <HBox.margin>
+                                                <Insets left="5.0" right="5.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                          <Button mnemonicParsing="false" onAction="#askelEteenpain" text="&gt;|" />
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="50.0" prefWidth="284.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#suunanVaihto" text="Direction" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <Slider fx:id="tapahtumaSlider" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

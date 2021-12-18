@@ -1,0 +1,6 @@
+module:tehdasSimulaattoriJavaFX
+simu
+simu.framework
+simu.model
+simu.view
+simu.view.drawables
