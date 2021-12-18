@@ -39,9 +39,9 @@ Simulaattori on ottanut inspiraatiota [Vaisala Oyj](https://www.vaisala.com/fi) 
 <img src="umlKaavio.svg" alt="Luokkien suhteet toisiinsa" title="Luokkien suhteet">
 
 ## Tekijät:
-- Leevi Koskinen
-- Sanna Kukkonen
-- Janne Lähteenmäki
+- [Leevi Koskinen](https://github.com/leba9999)
+- [Sanna Kukkonen](https://github.com/koalasna)
+- [Janne Lähteenmäki](https://github.com/Rudolffi)
 
 Projekti on suoritettu osana [Metropolian](https://www.metropolia.fi) amk tutkintoa, 2.vuoden kursilla: Oliosovellukset ja tietokannat/Ohjelmointiprojekti
 
