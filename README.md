@@ -19,7 +19,7 @@ Simulaattori on ottanut inspiraatiota [Vaisala Oyj](https://www.vaisala.com/fi) 
 ### IDE - Ohjelmointiympäristö:
 - [Eclipse](https://www.eclipse.org)
 
-### Kuvakaapaukset päänäkymistä:
+## Kuvakaapaukset päänäkymistä:
 | Alku-/Päänäkymä | Uusi Simulaatio |
 | --- | --- |
 | <img src="screenshots/window1.jpg" alt="Alkunäkymä" title="Alkunäkymä"> | <img src="screenshots/window2.jpg" alt="Erillaisia asetuksia joita voi muokata" title="Uusi Simulaatio"> |
@@ -28,6 +28,10 @@ Simulaattori on ottanut inspiraatiota [Vaisala Oyj](https://www.vaisala.com/fi) 
 | --- | --- |
 | <img src="screenshots/window3.jpg" alt="Simulointi soitin mistä näkee koko simulaation" title="Simulointi"> | <img src="screenshots/window4.jpg" alt="Suureet Taulukko" title="Taulukko"> |
 
+## Kaavio
+
+### Luokat ja niiden suhteet:
+<img src="umlKaavio.svg" alt="Luokkien suhteet toisiinsa" title="Luokkien suhteet">
 
 ## Tekijät:
 - Leevi Koskinen
