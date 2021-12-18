@@ -12,6 +12,7 @@ Simulaattori on ottanut inspiraatiota [Vaisala Oyj](https://www.vaisala.com/fi) 
   <img src="https://www.vaisala.com/themes/custom/vaisala/logo.svg" width="258" alt="https://www.vaisala.com/fi" title="https://www.vaisala.com/fi">
 </a>
 
+## Työkalut
 ### Käytetyt kirjastot:
 - [JavaFX](https://openjfx.io)
 - [MariaDB Connector/J](https://mariadb.com/kb/en/about-mariadb-connector-j/) 
@@ -32,7 +33,7 @@ Simulaattori on ottanut inspiraatiota [Vaisala Oyj](https://www.vaisala.com/fi) 
 | --- | --- |
 | <img src="screenshots/window3.jpg" alt="Simulointi soitin mistä näkee koko simulaation" title="Simulointi"> | <img src="screenshots/window4.jpg" alt="Suureet Taulukko" title="Taulukko"> |
 
-## Kaavio
+## Kaaviot
 
 ### Luokat ja niiden suhteet:
 <img src="umlKaavio.svg" alt="Luokkien suhteet toisiinsa" title="Luokkien suhteet">
