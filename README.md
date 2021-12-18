@@ -2,7 +2,7 @@
 
 ## Tehdas Simulaattori
 
-Tehdas Simulaattorilla on tarkoitus simuloida 3-vaihetapahtuma pohjaisesti tehdaslinjaston toimintaa. Simulaattori havannollistaa "jonojen" syntymistä linjaston eri vaiheissa ja muuttamalla eri parametrejä saadaan simuloitua erivaiheisiin jonoja.
+Tehdas Simulaattorilla on tarkoitus simuloida 3-vaihetapahtuma pohjaisesti laitetehdaslinjaston toimintaa. Simulaattori havannollistaa laite "jonojen" syntymistä linjaston eri vaiheissa ja muuttamalla eri parametrejä saadaan simuloitua erivaiheisiin jonoja.
 
 Tehdas simulaattorin kätevän yksinkertainen käyttöliittymä takaa mukavan kokemuksen käyttäjälle. Simulointia voi katsoa yhtä helposti, kuin nykyaikaisen videosoittimen soittamaa videota.
 
